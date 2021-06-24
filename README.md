@@ -1,6 +1,12 @@
 # Header-and-Footer-view-manage-in-collection-view
 
-### Take a view controller with collection view
+## Take a view controller with collection view
+
+//
+//  ImgViewController.swift
+//  TestApps
+//
+//  Created by Saddam on 24/6/21.
 //
 
 import UIKit
@@ -26,3 +32,4 @@ class ImgViewController: UIViewController {
 }
 //
 
+extension ImgViewController: UICollectionViewDelegate{
