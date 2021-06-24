@@ -1,6 +1,11 @@
 # Header-and-Footer-view-manage-in-collection-view
 
 ## Take a view controller with collection view
+func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    
+    print(indexPath.section)
+    
+}
 
 
 
