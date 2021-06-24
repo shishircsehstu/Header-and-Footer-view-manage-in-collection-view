@@ -3,7 +3,7 @@
 ## Take a view controller with collection view
 
 
-var let ss4 = 4
+
 class ImgViewController: UIViewController {
 
 class ImgViewController: UIViewController {
@@ -27,3 +27,8 @@ class ImgViewController: UIViewController {
     }
     }
     
+###
+
+func getValue(){
+    let ss = 4
+}
