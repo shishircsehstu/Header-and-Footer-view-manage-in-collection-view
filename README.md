@@ -4,10 +4,10 @@
     
     class ImgViewController: UIViewController {
     
-    @IBOutlet weak var imgCollectionView: UICollectionView!
+     @IBOutlet weak var imgCollectionView: UICollectionView!
     
-    var cellSpace = CGFloat(3)
-    override func viewDidLoad() {
+     var cellSpace = CGFloat(3)
+     override func viewDidLoad() {
         super.viewDidLoad()
         
         imgCollectionView.register(UINib(nibName: "ImgCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ImgCollectionViewCell")
@@ -20,11 +20,5 @@
         
         imgCollectionView.delegate = self
         imgCollectionView.dataSource = self
+      }
     }
-    }
-    
-###
-
-func getValue(){
-    let ss = 4
-}
