@@ -1,8 +1,11 @@
 # Header-and-Footer-view-manage-in-collection-view
 
 ## Take a view controller with collection view
-1. Take a CollectionReusableView Cocoa touch class with xib that is used for header and footer view.
-2. Register the xib of CollectionReusableView class in collection view. 
+
+ Take a CollectionReusableView Cocoa touch class with xib that is used for header and footer view.
+ Register the xib of CollectionReusableView class in collection view. 
+    
+    
     
     class ImgViewController: UIViewController {
     
