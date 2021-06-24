@@ -1,9 +1,9 @@
 # Header-and-Footer-view-manage-in-collection-view
 
 ### Take a view controller with collection view
+//
 
 import UIKit
-
 class ImgViewController: UIViewController {
     
     @IBOutlet weak var imgCollectionView: UICollectionView!
@@ -23,5 +23,6 @@ class ImgViewController: UIViewController {
         imgCollectionView.delegate = self
         imgCollectionView.dataSource = self
     }
-    
 }
+//
+
