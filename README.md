@@ -2,14 +2,8 @@
 
 ## Take a view controller with collection view
 
-//
-//  ImgViewController.swift
-//  TestApps
-//
-//  Created by Saddam on 24/6/21.
-//
 
-import UIKit
+
 class ImgViewController: UIViewController {
     
     @IBOutlet weak var imgCollectionView: UICollectionView!
@@ -29,7 +23,4 @@ class ImgViewController: UIViewController {
         imgCollectionView.delegate = self
         imgCollectionView.dataSource = self
     }
-}
-//
-
-extension ImgViewController: UICollectionViewDelegate{
+    }
