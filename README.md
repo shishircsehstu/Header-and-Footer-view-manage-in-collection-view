@@ -50,8 +50,8 @@ extension ImgViewController: UICollectionViewDelegate{
         default:
             assert(false, "Unexpected element kind")
         }
+      }
     }
-}
 extension ImgViewController : UICollectionViewDataSource{
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -66,10 +66,8 @@ extension ImgViewController : UICollectionViewDataSource{
         let cell = imgCollectionView.dequeueReusableCell(withReuseIdentifier: "ImgCollectionViewCell", for: indexPath) as! ImgCollectionViewCell
         
         return cell
+      }
     }
-    
-    
-}
 
 extension ImgViewController : UICollectionViewDelegateFlowLayout{
     
